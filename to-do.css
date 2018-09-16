@@ -1,0 +1,35 @@
+li {
+	border: 2px solid #ffad00;
+}
+
+/* id selector */
+#special {
+	background: #6400ff4a;
+}
+
+/* class selector */
+.high-priority {
+	text-decoration: underline;
+}
+
+/* Descendant selector - selects all X that are in Y*/
+li a {
+	color: red;
+}
+
+/* Adjacent selector - selects all X that are after Y */
+ul + h4 {
+	color: brown;
+}
+
+/* Attribute selector - selects all that have a thing */
+li[a] {
+	text-decoration: line-through;
+}
+
+/* nth of type - selects the nth of X type every time in a grouping */
+li:nth-of-type(3) {
+	color: #803600;
+	background: #2eb0277a;
+}
+
