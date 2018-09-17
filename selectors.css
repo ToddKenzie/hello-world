@@ -24,6 +24,7 @@ li {
 /*Change the background on every paragraph to be yellow*/
 p {
 	background: yellow;
+	font-family: Oswald;
 }
 
 /*Make all inputs have a 3px red border*/
@@ -34,11 +35,17 @@ input {
 /* Give everything with the class 'hello' a white background*/
 .hello {
 	background: white;
+	padding-left: 20px;
+	width: 75%;
+	margin: 0 auto;
 }
 
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
 #special {
 	border: 2px solid #1a00dd;
+	width: 40%;
+	text-align: center;
+	margin: 20px 40px 100px 60px;
 }
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
